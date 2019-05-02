@@ -1,0 +1,358 @@
+* {
+  box-sizing: border-box;
+  /*border: 1px dashed #000;*/
+}
+
+html, body {
+	margin: 0 auto;
+    min-height: 100%;
+    font-family: sans-serif;
+}
+
+body {
+	background-color: rgba(245, 245, 245, 0.05);
+}
+
+#main {
+	width: 100%;
+	height: 100vh;
+	min-height: 100vh;
+  	margin: 0 auto;
+}
+
+.con {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  .con {
+    max-width: 1140px;
+  }
+}
+
+@media (max-width: 992px) {
+  .con {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 768px) {
+  .con {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 576px) {
+  .con {
+    max-width: 540px;
+  }
+}
+
+#tribute-con {
+	text-align: center;
+	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+	font-family: 'Roboto', sans-serif;
+}
+
+#header {
+  	text-align: center;
+	display: block;
+	top: 0;
+	position: sticky;
+   	z-index: 9999;
+	background-color: #333333;
+}
+
+#header-con {
+  	position: relative;
+    width: 80%;
+}
+
+.navbar {
+	list-style: none;
+	padding: 1.5% 0 1.5%;
+}
+
+.navbar ul {
+	margin: 0;
+	padding: 0px;
+}
+
+.navbar ul li {
+	display: inline-block;
+	padding: 0 3px;
+	text-align: center;
+}
+
+a {
+	border: 1px solid transparent;
+	/*border-radius: 3px;*/
+	padding: 4% 11px;
+	font-size: 19px;
+	color: #c5c5c5;
+	text-decoration: none;
+}
+
+.navbar ul li a:hover {
+	border: 1px solid #c5c5c5;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#jumbotron {
+	position: relative;
+	/*height: 75vh;*/
+	padding: 2% 0;
+    background-color: #272727;
+}
+
+#jumbo-con {
+    width: 70%;
+    margin: 0 auto;
+	display: block;	
+    padding: 2% 0;
+}
+
+h1, h2, h3, h5 {
+	margin: 0;
+	font-weight: normal;
+}
+
+#title {
+	font-family: 'Arial', sans-serif;
+	font-size: 39px;
+	font-weight: normal;
+	padding: 3% 0 6%;
+}
+
+#short-description {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.half {
+	display: inline-block;
+	padding: 1% 2%;
+}
+
+#name {
+	position: relative;
+	padding: 0 4%;
+	padding-top: 3%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 55%;
+    margin: auto;
+	color: #f3f2ee;
+	float: left;
+}
+
+#img-div {
+    width: 45%;
+	border: 1px dashed #eee;
+}
+
+#image {
+	width: 100%;
+}
+
+#img-caption {
+	font-size: 15px;
+	color: #eee;
+}
+
+#tribute-info {
+	display: block;	
+	padding: 2% 0;
+    margin: 0 auto;
+    width: 70vw;
+}
+
+.head2 {
+	font-family: 'Lato', 'Arial', sans-serif;
+	font-size: 32px;
+	padding-top: 2%;
+}
+
+#tribute-info ul {
+	text-align: left;
+	list-style: none;
+}
+
+#tribute-info li {
+	line-height: 1.6;
+	font-size: 17px;
+}
+
+.yr {
+	font-size: 20px;
+}
+
+#two {
+	font-family: monospace;
+	font-size: 20px;
+	line-height: 1.5;
+	text-align: center;
+	padding: 0 2%;
+}
+
+#tribute-link {
+	color: #000;
+	padding: 1% 2%;
+	border: 1px solid #333333;
+	border-radius: 4px;
+}
+
+#tribute-link:hover {
+	color: #ddd;
+	background-color: #333333;
+}
+
+#gallery {
+	padding: 2% 0;
+}
+
+#gallery-div {
+	width: 80vw;
+	display: block;	
+	padding-top: 2%;
+    margin: 0 auto;
+}
+
+.img {
+	display: inline-block;
+	padding: 1%;		
+	border: 1px dashed #000;
+	margin-right: 1%;
+	margin-bottom: 1%;
+}
+
+.img img {
+	display: block;
+	height: 220px;
+	margin: auto;
+}
+
+.img-caption {
+	display: block;
+	font-size: 17px;
+	margin: 1% auto;
+	/*width: 60%;*/
+	word-wrap: break-word;
+	white-space: normal;
+	/*float: left;*/
+}
+
+#quotes {
+	padding: 2% 0;
+}
+
+#quotes-con {
+	width: 70vw;
+	display: block;	
+    margin: 0 auto;
+}
+
+.h3 {
+	font-family: monospace;
+	font-size: 20px;
+	line-height: 1.5;
+	display: block;	
+    margin: 0 auto;
+    padding: 1% 0;
+	width: 70%;
+}
+
+.qoute {
+	font-size: 25px;
+}
+
+footer {
+	padding: 1% 0 2%;
+	font-size: 15px;
+	text-align: center;
+	font-family: 'Roboto', 'Arial';
+	color: #f3f2ee;
+	background-color: #3a3a3a;
+}
+
+footer a {
+	font-size: 15px;
+	color: #f3f2ee;
+	text-decoration:none;
+	outline: none;
+	padding: 0;
+	cursor: none;
+}
+
+@media screen and (max-width: 756px) {
+	.con {
+		width: 100%;
+	}
+
+	#jumbo-con, #tribute-info, #gallery-div, #quotes-con {
+		width: 100vw;
+	}
+
+	#jumbotron {
+		height: auto;
+		/*padding: 2%;*/
+	}
+
+	#jumbo-con {
+		padding: 0;
+	}
+
+	#name {
+		padding: 1%;
+		float: none;
+		width: 90%;
+	}
+
+	#title {
+		padding: 1% 0;
+	}
+
+	#short-description {
+		font-size: 16px;
+	}
+
+	#img-div {
+		width: 60%;
+	}
+
+	#tribute-info ul {
+		padding: 0 3%;
+	}
+
+	#two {
+		font-size: 18px;
+	}
+
+	#gallery-div {
+		padding: 0 2%;
+	}
+
+	.img img {
+		height: 200px;
+	}
+
+	.h3 {
+		width: 90vw;
+		font-size: 18px;
+		line-height: 1.4;
+	}
+
+	.qoute {
+		font-size: 20px;
+	}
+
+	.head2 {
+		padding-top: 1%;
+	}
+}
+
+/*Not everyone lose is a lost*/
